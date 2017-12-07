@@ -39,7 +39,7 @@ public abstract class Animal {
     protected int xCordinate;
     protected int yCordinate;
 
-    public Animal(int numberOfLegs, String speakParameter) {
+    protected Animal(int numberOfLegs, String speakParameter) {
         this.numberOfLegs = numberOfLegs;
         this.speakParameter = speakParameter;
     }
@@ -52,7 +52,7 @@ public abstract class Animal {
     public void whereAmI(){
         System.out.println(this.xCordinate + ","+this.yCordinate);
         
-    }
+    } 
     public abstract void walkTo(int x, int y);
      
 }

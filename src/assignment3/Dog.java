@@ -17,7 +17,10 @@ public class Dog extends Animal {
 
     @Override
     public void walkTo(int x, int y) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Walking");
+        System.out.println("Waggiing Tail");
+        this.xCordinate=x;
+        this.yCordinate=y;
     }
     
 }

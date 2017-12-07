@@ -102,6 +102,14 @@ public class Assignment3 {
         List<Animal> animals=new ArrayList(); 
         animals.add(new Dog(4,"Woof"));
         animals.add(new Cat(4,"Meow"));
+        animals.add(new Mouse(4,"Squeek"));
+        animals.add(new Human(2,"Narly")); 
+        for(int i= 0; i<animals.size();i++){
+            animals.get(i).getLegs();
+            animals.get(i).speak();
+            animals.get(i).walkTo(0,1);
+            animals.get(i).whereAmI();
+        }
     }
     
 }

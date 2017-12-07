@@ -17,7 +17,10 @@ public class Mouse extends Animal {
 
     @Override
     public void walkTo(int x, int y) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Walking");
+        System.out.println("Sniffing Ground");
+        this.xCordinate=x;
+        this.yCordinate=y;
     }
     
 }
