@@ -1,5 +1,5 @@
 package assignment3;
-
+import java.util.*;
 /**
  * Instructions for this assignment.  Download this template from GitHub, fill in
  * the author comment below with your name and implement the requirements below.
@@ -8,7 +8,7 @@ package assignment3;
  * If a requirement is not implemented, you will receive 0 points.
  * Requirements are worth 50 points each.
  * 
- * @author myname
+ * @author Ryan Wanner
  * 
  * REQUIREMENT 1:
  * 
@@ -99,6 +99,9 @@ package assignment3;
 public class Assignment3 {
 
     public static void main(String[] args) {
+        List<Animal> animals=new ArrayList(); 
+        animals.add(new Dog(4,"Woof"));
+        animals.add(new Cat(4,"Meow"));
     }
     
 }
