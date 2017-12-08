@@ -100,8 +100,8 @@ public class Assignment3 {
 
     public static void main(String[] args) {
         List<Animal> animals=new ArrayList(); 
-        animals.add(new Dog(4,"Woof"));
         animals.add(new Cat(4,"Meow"));
+        animals.add(new Dog(4,"Woof"));
         animals.add(new Mouse(4,"Squeek"));
         animals.add(new Human(2,"Narly")); 
         for(int i= 0; i<animals.size();i++){
