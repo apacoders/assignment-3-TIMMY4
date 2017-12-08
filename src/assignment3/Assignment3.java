@@ -105,6 +105,7 @@ public class Assignment3 {
         animals.add(new Mouse(4,"Squeek"));
         animals.add(new Human(2,"Narly")); 
         for(int i= 0; i<animals.size();i++){
+            System.out.println(animals.get(i));
             animals.get(i).getLegs();
             animals.get(i).speak();
             animals.get(i).walkTo(0,1);

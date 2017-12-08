@@ -10,7 +10,7 @@ package assignment3;
  * @author Ryan.Wanner
  */
 public class Dog extends Animal {
-
+    
     public Dog(int numberOfLegs, String speakParameter) {
         super(numberOfLegs, speakParameter);
     }
@@ -21,6 +21,10 @@ public class Dog extends Animal {
         System.out.println("Waggiing Tail");
         this.xCordinate=x;
         this.yCordinate=y;
+    }
+    @Override
+    public String toString() {
+        return "Dog";
     }
     
 }

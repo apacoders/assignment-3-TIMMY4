@@ -22,5 +22,10 @@ public class Cat extends Animal {
         this.xCordinate=x;
         this.yCordinate=y;
     }
+
+    @Override
+    public String toString() {
+        return "Cat";
+    }
     
 }
