@@ -43,7 +43,7 @@ public abstract class Animal {
         this.numberOfLegs = numberOfLegs;
         this.speakParameter = speakParameter;
     }
-    public int getLegs(){
+    public final int getLegs(){
         return this.numberOfLegs;
     }
     public void speak(){
